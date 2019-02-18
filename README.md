@@ -4,3 +4,5 @@ The dataset can be downloaded using the [Kaggle API](https://github.com/Kaggle/k
 ```console
 sh scripts/download_dataset.sh
 ```
+#### Exploratory Data Analysis
+Please see: [notebooks](notebooks/exploratory_data_analysis.ipynb)
