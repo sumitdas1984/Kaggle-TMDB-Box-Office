@@ -8,3 +8,4 @@ cd $DATASETDIR
 kaggle competitions download -c tmdb-box-office-prediction
 unzip "*.zip"
 mv *.zip "$DATASETDIR/archive"
+chmod 644 *.csv
