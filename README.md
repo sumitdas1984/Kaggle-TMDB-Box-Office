@@ -4,6 +4,7 @@ The dataset can be downloaded using the [Kaggle API](https://github.com/Kaggle/k
 ```console
 sh scripts/download_dataset.sh
 ```
+
 #### Exploratory Data Analysis
 Exploratory data analysis for:
 * Missing values
@@ -17,9 +18,14 @@ Please see: [notebooks](notebooks/exploratory_data_analysis.ipynb)
 #### Feature Engineering
 Feature engineering for:
 * Data filling (`revenue`, `budget`, `runtime` and `release_date`)
-* Covert release_date into cyclic ordinal features
+* Covert release_date into ~~(cyclic ordinal features)~~ numeric encoding features
 * One-hot encoding for `original_language`, `genres`, `production_companies`, `production_countries` and `spoken_languages`
 * Numeric feature normalization using `MinMaxScaler`
-* Feature generation (`has_collection`, `has_homepage`, `has_tagline`)
+* Feature generation (`has_budget`, `has_collection`, `has_homepage`, `has_tagline`, `num_of_Keywords`, `num_of_cast`, `num_of_crew`)
 
 Please see: [notebooks](notebooks/feature_engineering.ipynb)
+
+#### Submission
+| Number | Rank |             Date |   Score |
+| ------:| ----:| ----------------:| -------:|
+|    001 |   89 | 2019/02/25 19:17 | 2.05429 |
