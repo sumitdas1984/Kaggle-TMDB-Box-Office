@@ -25,6 +25,12 @@ Feature engineering for:
 
 Please see: [notebooks](notebooks/feature_engineering.ipynb)
 
+#### Prediction Model
+Prediction model based on the following algorithms (optimized using [Hyperopt](https://github.com/hyperopt/hyperopt)):
+* [Random Forest Regression](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+
+Please see: [notebooks](notebooks/prediction_model.ipynb)
+
 #### Submission
 | Number | Rank |             Date |   Score |
 | ------:| ----:| ----------------:| -------:|
