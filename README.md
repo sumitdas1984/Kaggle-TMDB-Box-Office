@@ -1,7 +1,7 @@
 ## Kaggle TMDB Box Office Prediction
 #### Download Dataset
 The dataset can be downloaded using the [Kaggle API](https://github.com/Kaggle/kaggle-api). To install Kaggle API, use the following command line: `pip install --user kaggle`. After that, create the API token on `https://www.kaggle.com/<username>/account`. Copy `kaggle.json` to `~/.kaggle/kaggle.json`. Finally, execute the following command:
-```console
+```
 sh scripts/download_dataset.sh
 ```
 
@@ -22,6 +22,7 @@ Feature engineering for:
 * One-hot encoding for `original_language`, `genres`, `production_companies`, `production_countries` and `spoken_languages`
 * Numeric feature normalization using `MinMaxScaler`
 * Feature generation (`has_budget`, `has_collection`, `has_homepage`, `has_tagline`, `num_of_Keywords`, `num_of_cast`, `num_of_crew`)
+* External features (`vote_average`, `vote_count`)
 
 Please see: [notebooks](notebooks/feature_engineering.ipynb)
 
@@ -35,3 +36,4 @@ Please see: [notebooks](notebooks/prediction_model.ipynb)
 | Number | Rank |             Date |   Score |
 | ------:| ----:| ----------------:| -------:|
 |    001 |   89 | 2019/02/25 19:17 | 2.05429 |
+|    002 |   75 | 2019/02/27 19:45 | 2.01930 |
