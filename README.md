@@ -29,6 +29,7 @@ Please see: [notebooks](notebooks/feature_engineering.ipynb)
 #### Prediction Model
 Prediction model based on the following algorithms (optimized using [Hyperopt](https://github.com/hyperopt/hyperopt)):
 * [Random Forest Regression](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+* [XGBoost Regression](https://xgboost.readthedocs.io/en/latest/index.html)
 
 Please see: [notebooks](notebooks/prediction_model.ipynb)
 
@@ -37,3 +38,4 @@ Please see: [notebooks](notebooks/prediction_model.ipynb)
 | ------:| ----:| ----------------:| -------:|
 |    001 |   89 | 2019/02/25 19:17 | 2.05429 |
 |    002 |   75 | 2019/02/27 19:45 | 2.01930 |
+|    003 |   57 | 2019/03/02 22:57 | 1.96615 |
