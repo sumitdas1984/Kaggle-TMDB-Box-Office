@@ -35,11 +35,13 @@ Prediction model based on the following algorithms (optimized using [Hyperopt](h
 Please see: [notebooks](notebooks/prediction_model.ipynb)
 
 #### Submission
-| Number | Rank |             Date |   Score |
-| ------:| ----:| ----------------:| -------:|
-|    001 |   89 | 2019/02/25 19:17 | 2.05429 |
-|    002 |   75 | 2019/02/27 19:45 | 2.01930 |
-|    003 |   57 | 2019/03/02 22:57 | 1.96615 |
-|    004 |   35 | 2019-03-04 19:10 | 1.93589 |
-|    005 |   38 | 2019-03-05 19:44 | 1.98788 |
-|    006 |   30 | 2019-03-05 20:02 | 1.91772 | 
+| Number | Rank |             Date |                 Model |   Score |
+| ------:| ----:| ----------------:| ---------------------:| -------:|
+|    001 |   89 | 2019/02/25 19:17 | RandomForestRegressor | 2.05429 |
+|    002 |   75 | 2019/02/27 19:45 | RandomForestRegressor | 2.01930 |
+|    003 |   57 | 2019/03/02 22:57 |          XGBRegressor | 1.96615 |
+|    004 |   35 | 2019-03-04 19:10 |     CatBoostRegressor | 1.93589 |
+|    005 |   38 | 2019-03-05 19:44 |          XGBRegressor | 1.98788 |
+|    006 |   30 | 2019-03-05 20:02 |         LGBMRegressor | 1.91772 | 
+|    007 |   32 | 2019-03-06 08:11 |     CatBoostRegressor | 1.92542 |
+|    008 |   30 | 2019-03-06 08:14 |          XGBRegressor | 1.90633 |
