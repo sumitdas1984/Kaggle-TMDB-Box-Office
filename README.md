@@ -46,3 +46,5 @@ Please see: [notebooks](notebooks/prediction_model.ipynb)
 |    007 |   32 | 2019-03-06 08:11 |     CatBoostRegressor | 1.92542 |
 |    008 |   30 | 2019-03-06 08:14 |          XGBRegressor | 1.90633 |
 |    009 |   26 | 2019-03-06 08:58 |              Stacking | 1.88679 |
+|    010 |   32 | 2019-03-09 14:07 |              Stacking | 1.89698 |
+|    011 |   32 | 2019-03-09 14:09 |          XGBRegressor | 1.91136 |
