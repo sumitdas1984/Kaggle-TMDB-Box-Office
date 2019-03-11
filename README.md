@@ -48,3 +48,4 @@ Please see: [notebooks](notebooks/prediction_model.ipynb)
 |    009 |   26 | 2019-03-06 08:58 |              Stacking | 1.88679 |
 |    010 |   32 | 2019-03-09 14:07 |              Stacking | 1.89698 |
 |    011 |   32 | 2019-03-09 14:09 |          XGBRegressor | 1.91136 |
+|    012 |   34 | 2019-03-11 18:20 |              Stacking | 2.00073 |
